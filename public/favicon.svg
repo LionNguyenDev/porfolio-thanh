@@ -1,6 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="152" height="152"><svg width="152" height="152" viewBox="0 0 152 152" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="152" height="152" rx="76" fill="black"></rect>
-<path d="M76.4957 24L126 109H27L76.4957 24Z" fill="white"></path>
-</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
-@media (prefers-color-scheme: dark) { :root { filter: none; } }
-</style></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#113b99"/>
+  <g fill="#ffffff">
+    <rect x="8" y="15" width="23" height="7" rx="3.5"/>
+    <rect x="16" y="15" width="7" height="34" rx="3.5"/>
+    <rect x="33" y="15" width="23" height="7" rx="3.5"/>
+    <rect x="41" y="15" width="7" height="34" rx="3.5"/>
+  </g>
+  <path fill="#e16371" d="M54 40c.3 3.2 2.8 5.7 6 6-3.2.3-5.7 2.8-6 6-.3-3.2-2.8-5.7-6-6 3.2-.3 5.7-2.8 6-6z"/>
+</svg>

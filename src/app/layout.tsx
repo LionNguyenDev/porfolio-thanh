@@ -9,7 +9,7 @@ import Providers from './providers';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.appUrl),
-  title: { default: siteConfig.metaTitle, template: `%s — ${siteConfig.name}` },
+  title: { default: siteConfig.metaTitle, template: `%s · ${siteConfig.shortName}` },
   description: siteConfig.description,
   generator: 'Next.js',
   applicationName: siteConfig.name,
@@ -31,9 +31,13 @@ export const metadata: Metadata = {
       template: `${siteConfig.name} - %s`,
     },
   },
+  manifest: '/site.webmanifest',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-96x96.png',
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon.ico', sizes: '48x48' },
+    ],
     apple: '/apple-touch-icon.png',
   },
   twitter: {

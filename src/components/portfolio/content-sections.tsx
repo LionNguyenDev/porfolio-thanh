@@ -156,8 +156,9 @@ export function SiteFooter() {
   return (
     <footer className='border-on-primary/15 border-t bg-primary py-6 text-on-primary/70 text-sm'>
       <Container className='flex flex-wrap items-center justify-between gap-2'>
-        <p>
-          © {new Date().getFullYear()} {profile.name}
+        <p className='text-on-primary/60 text-xs'>
+          Designed &amp; built by{' '}
+          <span className='font-semibold text-on-primary/80'>LionDevNguyen - Nguyen Danh Luu</span>
         </p>
         <a href='#top' className='font-semibold hover:text-on-primary'>
           Back to top ↑
